@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0382C576444C567F052224BC /* Pods_iPortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B09A6B181CCB8D190A1FE08 /* Pods_iPortfolio.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		EC11805E22809B900074BF30 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11805D22809B900074BF30 /* ContactsView.swift */; };
+		EC3D22C22262613F000454F3 /* iPortfolio.xcworkspace in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3D22C12262613F000454F3 /* iPortfolio.xcworkspace */; };
+		EC3D22C422626162000454F3 /* Source in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3D22C322626162000454F3 /* Source */; };
+		EC8B888F22807CB60064844A /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B888E22807CB60064844A /* CommentView.swift */; };
 		ECB5EACB22210B8300AA7A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5EACA22210B8300AA7A89 /* AppDelegate.swift */; };
 		ECB5EACD22210B8300AA7A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5EACC22210B8300AA7A89 /* ViewController.swift */; };
 		ECB5EAD022210B8300AA7A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB5EACE22210B8300AA7A89 /* Main.storyboard */; };
 		ECB5EAD222210B8400AA7A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB5EAD122210B8400AA7A89 /* Assets.xcassets */; };
 		ECB5EAD522210B8400AA7A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB5EAD322210B8400AA7A89 /* LaunchScreen.storyboard */; };
+		ECB72755222124D400216957 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECB72754222124D400216957 /* GoogleService-Info.plist */; };
+		ECBFD1C52261325300A47336 /* formMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBFD1C42261325300A47336 /* formMaker.swift */; };
+		ECE0EF3522626F4C00B1853E /* introChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0EF3422626F4C00B1853E /* introChoice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B09A6B181CCB8D190A1FE08 /* Pods_iPortfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPortfolio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B743400C97E5DCD182CCBA2 /* Pods-iPortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPortfolio.release.xcconfig"; path = "Target Support Files/Pods-iPortfolio/Pods-iPortfolio.release.xcconfig"; sourceTree = "<group>"; };
+		D75DC729945738ADF33B4B4B /* Pods-iPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPortfolio.debug.xcconfig"; path = "Target Support Files/Pods-iPortfolio/Pods-iPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
+		EC11805D22809B900074BF30 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		EC3D22C12262613F000454F3 /* iPortfolio.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = iPortfolio.xcworkspace; sourceTree = "<group>"; };
+		EC3D22C322626162000454F3 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Source; path = Pods/FirebaseAuth/Firebase/Auth/Source; sourceTree = "<group>"; };
+		EC8B888E22807CB60064844A /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
 		ECB5EAC722210B8300AA7A89 /* iPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB5EACA22210B8300AA7A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECB5EACC22210B8300AA7A89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECB5EACC22210B8300AA7A89 /* ViewController.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECB5EACF22210B8300AA7A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECB5EAD122210B8400AA7A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECB5EAD422210B8400AA7A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECB5EAD622210B8400AA7A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB72754222124D400216957 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ECBFD1C42261325300A47336 /* formMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formMaker.swift; sourceTree = "<group>"; };
+		ECE0EF3422626F4C00B1853E /* introChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introChoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,19 +47,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3D22C422626162000454F3 /* Source in Frameworks */,
+				EC3D22C22262613F000454F3 /* iPortfolio.xcworkspace in Frameworks */,
+				0382C576444C567F052224BC /* Pods_iPortfolio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44473A4DD75D587D95B5DD4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D75DC729945738ADF33B4B4B /* Pods-iPortfolio.debug.xcconfig */,
+				9B743400C97E5DCD182CCBA2 /* Pods-iPortfolio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A21DC4FBD5B37BBA2ABDFE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC3D22C322626162000454F3 /* Source */,
+				EC3D22C12262613F000454F3 /* iPortfolio.xcworkspace */,
+				0B09A6B181CCB8D190A1FE08 /* Pods_iPortfolio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECB5EABE22210B8300AA7A89 = {
 			isa = PBXGroup;
 			children = (
 				ECB5EAC922210B8300AA7A89 /* iPortfolio */,
 				ECB5EAC822210B8300AA7A89 /* Products */,
+				44473A4DD75D587D95B5DD4F /* Pods */,
+				4A21DC4FBD5B37BBA2ABDFE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		ECB5EAC822210B8300AA7A89 /* Products */ = {
 			isa = PBXGroup;
@@ -54,9 +97,14 @@
 		ECB5EAC922210B8300AA7A89 /* iPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				ECB72754222124D400216957 /* GoogleService-Info.plist */,
 				ECB5EACA22210B8300AA7A89 /* AppDelegate.swift */,
 				ECB5EACC22210B8300AA7A89 /* ViewController.swift */,
 				ECB5EACE22210B8300AA7A89 /* Main.storyboard */,
+				EC11805D22809B900074BF30 /* ContactsView.swift */,
+				ECBFD1C42261325300A47336 /* formMaker.swift */,
+				ECE0EF3422626F4C00B1853E /* introChoice.swift */,
+				EC8B888E22807CB60064844A /* CommentView.swift */,
 				ECB5EAD122210B8400AA7A89 /* Assets.xcassets */,
 				ECB5EAD322210B8400AA7A89 /* LaunchScreen.storyboard */,
 				ECB5EAD622210B8400AA7A89 /* Info.plist */,
@@ -71,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECB5EAD922210B8400AA7A89 /* Build configuration list for PBXNativeTarget "iPortfolio" */;
 			buildPhases = (
+				84E2C5DB83EE7D4E732465CD /* [CP] Check Pods Manifest.lock */,
 				ECB5EAC322210B8300AA7A89 /* Sources */,
 				ECB5EAC422210B8300AA7A89 /* Frameworks */,
 				ECB5EAC522210B8300AA7A89 /* Resources */,
+				7F2DDAF65754CBF03A3BA836 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +146,7 @@
 				TargetAttributes = {
 					ECB5EAC622210B8300AA7A89 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -123,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECB5EAD522210B8400AA7A89 /* LaunchScreen.storyboard in Resources */,
+				ECB72755222124D400216957 /* GoogleService-Info.plist in Resources */,
 				ECB5EAD222210B8400AA7A89 /* Assets.xcassets in Resources */,
 				ECB5EAD022210B8300AA7A89 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +182,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7F2DDAF65754CBF03A3BA836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iPortfolio/Pods-iPortfolio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iPortfolio/Pods-iPortfolio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84E2C5DB83EE7D4E732465CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iPortfolio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECB5EAC322210B8300AA7A89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ECB5EACD22210B8300AA7A89 /* ViewController.swift in Sources */,
+				ECBFD1C52261325300A47336 /* formMaker.swift in Sources */,
 				ECB5EACB22210B8300AA7A89 /* AppDelegate.swift in Sources */,
+				EC11805E22809B900074BF30 /* ContactsView.swift in Sources */,
+				EC8B888F22807CB60064844A /* CommentView.swift in Sources */,
+				ECE0EF3522626F4C00B1853E /* introChoice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +329,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -274,12 +384,14 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		ECB5EADA22210B8400AA7A89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75DC729945738ADF33B4B4B /* Pods-iPortfolio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,15 +401,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = cs523.iPortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		ECB5EADB22210B8400AA7A89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B743400C97E5DCD182CCBA2 /* Pods-iPortfolio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,9 +421,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = cs523.iPortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
